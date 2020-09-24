@@ -88,7 +88,9 @@ PRODUCT_PACKAGES += \
 # Overlays - override vendor ones
 PRODUCT_PACKAGES += \
     FrameworksResCommon \
-    FrameworksResTarget
+    FrameworksResTarget \
+    DevicesOverlay \
+    DevicesAndroidOverlay
 
 # Paranoid Doze
 PRODUCT_PACKAGES += \
