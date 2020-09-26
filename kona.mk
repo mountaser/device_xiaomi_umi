@@ -95,13 +95,6 @@ PRODUCT_PACKAGES += \
     XiaomiFrameworks \
     XiaomiSystemUI
 
-# Overlays - override vendor ones
-PRODUCT_PACKAGES += \
-    FrameworksResCommon \
-    FrameworksResTarget \
-    DevicesOverlay \
-    DevicesAndroidOverlay
-
 # Paranoid Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
