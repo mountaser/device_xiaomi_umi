@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "pa.biometrics.fingerprint.inscreen@1.0-service.kona"
+#define LOG_TAG "pa.biometrics.fingerprint.inscreen@1.0-service.raphael"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>

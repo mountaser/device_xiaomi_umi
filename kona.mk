@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    pa.biometrics.fingerprint.inscreen@1.0-service.kona
+    pa.biometrics.fingerprint.inscreen@1.0-service.raphael
 
 PRODUCT_COPY_FILES += \
    vendor/pa/config/permissions/vendor.pa.biometrics.fingerprint.inscreen.xml:system/etc/permissions/vendor.pa.biometrics.fingerprint.inscreen.xml
