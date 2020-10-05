@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Inherit proprietary targets
-$(call inherit-product-if-exists, vendor/xiaomi/cmi/cmi-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/umi/umi-vendor.mk)
 
 -include $(LOCAL_PATH)/product_prop.mk
 -include $(LOCAL_PATH)/system_prop.mk
@@ -105,7 +105,7 @@ PRODUCT_COPY_FILES += \
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/xiaomi/cmi
+    device/xiaomi/umi
 
 # Net
 PRODUCT_PACKAGES += \

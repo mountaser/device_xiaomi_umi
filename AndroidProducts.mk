@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_cmi.mk
+    $(LOCAL_DIR)/aosp_umi.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_cmi-user \
-    aosp_cmi-userdebug \
-    aosp_cmi-eng
+    aosp_umi-user \
+    aosp_umi-userdebug \
+    aosp_umi-eng

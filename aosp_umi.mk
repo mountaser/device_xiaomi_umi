@@ -20,21 +20,21 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Inherit device configuration
-$(call inherit-product, device/xiaomi/cmi/kona.mk)
+$(call inherit-product, device/xiaomi/umi/kona.mk)
 
 # Inherit common PE configuration
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Override build properties
-PRODUCT_NAME := aosp_cmi
-PRODUCT_DEVICE := cmi
+PRODUCT_NAME := aosp_umi
+PRODUCT_DEVICE := umi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 10 Pro
+PRODUCT_MODEL := MI 10
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="qti/qssi/qssi:10/QKQ1.191117.002/V12.0.4.0.QJACNXM:user/release-keys" \
-    PRODUCT_NAME="cmi" \
-    TARGET_DEVICE="cmi"
+    PRIVATE_BUILD_DESC="qti/qssi/qssi:10/QKQ1.191117.002/V12.0.8.0.QJACNXM:user/release-keys" \
+    PRODUCT_NAME="umi" \
+    TARGET_DEVICE="umi"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
