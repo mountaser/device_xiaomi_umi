@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_umi.mk
+    $(LOCAL_DIR)/havoc_umi.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_umi-user \
-    aosp_umi-userdebug \
-    aosp_umi-eng
+    havoc_umi-user \
+    havoc_umi-userdebug \
+    havoc_umi-eng
